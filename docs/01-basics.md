@@ -7,7 +7,7 @@ curl -X GET http://127.0.0.1:9200/_cat/health?v
 curl -X GET http://127.0.0.1:9200/_cat/indices?v
 
 # Create an Index
-#Index name: customer
+Index name: customer
 curl -X PUT http://127.0.0.1:9200/customer?pretty
 curl -X GET http://127.0.0.1:9200/_cat/indices?v
 
